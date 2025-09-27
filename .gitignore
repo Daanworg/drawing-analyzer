@@ -1,20 +1,46 @@
-# Virtual Environment
-venv/
-.venv/
-
-# Python cache
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# Secrets - NEVER commit this file
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Environment & Secrets
+# NEVER commit your virtual environment or secrets file
+venv/
+.venv/
 .env
 
-# Output files
+# Confidential Data and Output
+# Ignore the source images and the JSON output files
+images/
 output/
-*.json
-*.jsonl
 
-# IDE and OS specific
+# IDE and OS-specific files
 .idea/
 .vscode/
+*.swp
+*.swo
+*~
 .DS_Store
