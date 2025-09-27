@@ -1,0 +1,20 @@
+# Virtual Environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Secrets - NEVER commit this file
+.env
+
+# Output files
+output/
+*.json
+*.jsonl
+
+# IDE and OS specific
+.idea/
+.vscode/
+.DS_Store
